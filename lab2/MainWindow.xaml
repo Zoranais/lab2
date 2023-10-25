@@ -1,0 +1,29 @@
+﻿<Window x:Class="lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Employee" FontSize="24px" HorizontalAlignment="Left" Margin="51,36,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="51,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Minimal Wage&#xD;&#xA;" HorizontalAlignment="Left" Margin="51,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="EmploeeNameInput" HorizontalAlignment="Left" Margin="51,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="EmploeeWageInput" HorizontalAlignment="Left" Margin="51,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Engineer" FontSize="24px" HorizontalAlignment="Left" Margin="589,36,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="589,78,0,0" VerticalAlignment="Top"/>
+        <Label Content="Minimal Wage&#xA;" HorizontalAlignment="Left" Margin="589,163,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="EngineerNameInput" HorizontalAlignment="Left" Margin="589,104,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="EngineerWageInput" HorizontalAlignment="Left" Margin="589,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Number of projects" HorizontalAlignment="Left" Margin="589,244,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="EngineerProjectsInput" HorizontalAlignment="Left" Margin="589,280,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Coeficient" HorizontalAlignment="Left" Margin="340,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="KInput" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <Button Content="Calculate" FontSize="24px" HorizontalAlignment="Center" Margin="0,374,0,0" VerticalAlignment="Top" Height="50" Width="227" Click="Button_Click"/>
+        <Label x:Name="EmployeeOutput" Content="" HorizontalAlignment="Left" Margin="75,328,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EngineerOutput" Content="" HorizontalAlignment="Left" Margin="726,328,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
